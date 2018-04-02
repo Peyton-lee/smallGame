@@ -23,6 +23,11 @@ cc.Class({
         refreshBtn: {
             default: null,
             type: cc.Button
+        },
+
+        backBtn: {
+            default: null,
+            type: cc.Button
         }
     },
 
@@ -51,6 +56,10 @@ cc.Class({
 
         this.refreshBtn.node.on(cc.Node.EventType.TOUCH_END, function (event) {
             _this.gameStart();
+        });
+
+        this.backBtn.node.on(cc.Node.EventType.TOUCH_END, function (event) {
+            cc.director.loadScene('Began');
         });
     },
     gameStart: function gameStart() {
@@ -87,7 +96,7 @@ cc.Class({
                     index: j + i * (this.col + 2)
                 };
                 var x = -winSizeW / 2 + (winSizeW - this._boxWidth * this.col) / 2 + (j - 1 / 2) * this._boxWidth;
-                var y = 250 - (i - 1) * this._boxWidth;
+                var y = 270 - (i - 1) * this._boxWidth;
                 o.pos = cc.p(x, y);
 
                 if (i !== 0 && j !== 0 && i !== this.col + 1 && j !== this.row + 1) {

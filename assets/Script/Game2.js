@@ -18,6 +18,11 @@ cc.Class({
             default: null,
             type: cc.Button
         },
+
+        backBtn: {
+            default: null,
+            type: cc.Button
+        },
     },
 
     ctor() {
@@ -44,6 +49,10 @@ cc.Class({
         
         this.refreshBtn.node.on(cc.Node.EventType.TOUCH_END, event => {
             this.gameStart();
+        })
+        
+        this.backBtn.node.on(cc.Node.EventType.TOUCH_END, event => {
+            cc.director.loadScene('Began');
         })
     },
 
@@ -79,7 +88,7 @@ cc.Class({
                     index: j + i * (this.col + 2)
                 }
                 let x = -winSizeW / 2 + (winSizeW - this._boxWidth * this.col) / 2 + (j - 1 / 2) * this._boxWidth;
-                let y = 250 - (i - 1) * this._boxWidth;
+                let y = 270 - (i - 1) * this._boxWidth;
                 o.pos = cc.p(x, y);
 
                 if (i !== 0 && j !== 0 && i !== this.col + 1 && j !== this.row + 1) {
