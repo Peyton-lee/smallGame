@@ -8,11 +8,25 @@ var Global = require("./common/Global");
 cc.Class({
     extends: cc.Component,
 
-    properties: {},
+    properties: {
+        btnMp3: {
+            default: null,
+            url: cc.AudioClip
+        }
+    },
 
     // onLoad () {},
 
-    start: function start() {},
+    start: function start() {
+        var _this = this;
+
+        this.node.on(cc.Node.EventType.TOUCH_END, function (event) {
+            _this.btnClick();
+        }, this);
+    },
+    btnClick: function btnClick(event) {
+        cc.audioEngine.playEffect(this.btnMp3);
+    },
 
 
     click: function click(event) {

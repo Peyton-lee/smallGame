@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d5aed90-b4e1-449e-a870-b50c03162818" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Texture/heng.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Texture/heng.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Texture/shu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Texture/shu.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Texture/singleColor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Texture/singleColor.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/res.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/imports/41/410fb916-8721-4663-bab8-34397391ace7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/imports/90/904f4c87-aaf8-42ce-a0ae-d32a0ebe7cef.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/imports/a6/a6429746-9cbd-47be-83ce-6e73e0cf6806.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Scene/Began.fire" afterPath="$PROJECT_DIR$/assets/Scene/Began.fire" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Scene/Began.fire.meta" afterPath="$PROJECT_DIR$/assets/Scene/Began.fire.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Scene/Game.fire" afterPath="$PROJECT_DIR$/assets/Scene/Game.fire" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Scene/Game.fire.meta" afterPath="$PROJECT_DIR$/assets/Scene/Game.fire.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Scene/Pass.fire.meta" afterPath="$PROJECT_DIR$/assets/Scene/Pass.fire.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Game.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Game.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Game2.js" afterPath="$PROJECT_DIR$/assets/Script/Game2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Game2.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Game2.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/btnClick.js" afterPath="$PROJECT_DIR$/assets/Script/btnClick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/btnClick.js.meta" afterPath="$PROJECT_DIR$/assets/Script/btnClick.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/common/Global.js.meta" afterPath="$PROJECT_DIR$/assets/Script/common/Global.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/58pic_53df62116da60.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/58pic_53df62116da60.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/Background.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/Background.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/XXL001.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/XXL001.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/XXL002.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/XXL002.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/XXL003.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/XXL003.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/XXL004.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/XXL004.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/XXL005.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/XXL005.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/XXL006.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/XXL006.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/XXL007.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/XXL007.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/XXL008.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/XXL008.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/XXLbeijing.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/XXLbeijing.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/XXLdikuang.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/XXLdikuang.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/box.prefab.meta" afterPath="$PROJECT_DIR$/assets/Texture/box.prefab.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/box2.prefab" afterPath="$PROJECT_DIR$/assets/Texture/box2.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/box2.prefab.meta" afterPath="$PROJECT_DIR$/assets/Texture/box2.prefab.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/btn_buy_normal.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/btn_buy_normal.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/btn_buy_selected.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/btn_buy_selected.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/fanhui.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/fanhui.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/fanhui_2.png.meta" afterPath="$PROJECT_DIR$/assets/Texture/fanhui_2.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/timg.jpeg.meta" afterPath="$PROJECT_DIR$/assets/Texture/timg.jpeg.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/未命名.fire.meta" afterPath="$PROJECT_DIR$/assets/未命名.fire.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/00/0004d1cf-a0ad-47d8-ab17-34d3db9d35a3.json" afterPath="$PROJECT_DIR$/library/imports/00/0004d1cf-a0ad-47d8-ab17-34d3db9d35a3.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/04/04196fbe-c0d8-41d1-aa34-f07ad937efea.json" afterPath="$PROJECT_DIR$/library/imports/04/04196fbe-c0d8-41d1-aa34-f07ad937efea.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/08/0862182f-edb8-46dc-b923-0c8983a029f2.json" afterPath="$PROJECT_DIR$/library/imports/08/0862182f-edb8-46dc-b923-0c8983a029f2.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/0a/0a1980c5-dacf-4a3e-9e8e-149b7ebd65f2.json" afterPath="$PROJECT_DIR$/library/imports/0a/0a1980c5-dacf-4a3e-9e8e-149b7ebd65f2.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/0b/0ba58a7d-7afd-4231-b668-ac40f204e8b1.json" afterPath="$PROJECT_DIR$/library/imports/0b/0ba58a7d-7afd-4231-b668-ac40f204e8b1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/0d/0d784963-d024-4ea6-a7db-03be0ad63010.json" afterPath="$PROJECT_DIR$/library/imports/0d/0d784963-d024-4ea6-a7db-03be0ad63010.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/13/13f899bd-de90-4036-89fc-ae9d26c5fc2e.json" afterPath="$PROJECT_DIR$/library/imports/13/13f899bd-de90-4036-89fc-ae9d26c5fc2e.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/15/15de7b00-5656-48fb-81a9-9c0faa654c5e.json" afterPath="$PROJECT_DIR$/library/imports/15/15de7b00-5656-48fb-81a9-9c0faa654c5e.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/1a/1a32fc76-f0bd-4f66-980f-56929c0ca0b3.json" afterPath="$PROJECT_DIR$/library/imports/1a/1a32fc76-f0bd-4f66-980f-56929c0ca0b3.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/1f/1f55e3be-b89b-4b79-88de-47fd31018044.json" afterPath="$PROJECT_DIR$/library/imports/1f/1f55e3be-b89b-4b79-88de-47fd31018044.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/23/232d2782-c4bd-4bb4-9e01-909f03d6d3b9.json" afterPath="$PROJECT_DIR$/library/imports/23/232d2782-c4bd-4bb4-9e01-909f03d6d3b9.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/27/27756ebb-3d33-44b0-9b96-e858fadd4dd4.json" afterPath="$PROJECT_DIR$/library/imports/27/27756ebb-3d33-44b0-9b96-e858fadd4dd4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/28/280c3aec-6492-4a9d-9f51-a9b00b570b4a.js" afterPath="$PROJECT_DIR$/library/imports/28/280c3aec-6492-4a9d-9f51-a9b00b570b4a.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/28/280c3aec-6492-4a9d-9f51-a9b00b570b4a.js.map" afterPath="$PROJECT_DIR$/library/imports/28/280c3aec-6492-4a9d-9f51-a9b00b570b4a.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/29/29158224-f8dd-4661-a796-1ffab537140e.json" afterPath="$PROJECT_DIR$/library/imports/29/29158224-f8dd-4661-a796-1ffab537140e.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/2c/2c937608-2562-40ea-b264-7395df6f0cea.json" afterPath="$PROJECT_DIR$/library/imports/2c/2c937608-2562-40ea-b264-7395df6f0cea.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/2d/2d2f792f-a40c-49bb-a189-ed176a246e49.json" afterPath="$PROJECT_DIR$/library/imports/2d/2d2f792f-a40c-49bb-a189-ed176a246e49.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/31/317cb8c3-db29-484f-bf12-13e625c94413.json" afterPath="$PROJECT_DIR$/library/imports/31/317cb8c3-db29-484f-bf12-13e625c94413.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/31/31d8962d-babb-4ec7-be19-8e9f54a4ea99.json" afterPath="$PROJECT_DIR$/library/imports/31/31d8962d-babb-4ec7-be19-8e9f54a4ea99.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/32/32044bd2-481f-4cf1-a656-e2b2fb1594eb.json" afterPath="$PROJECT_DIR$/library/imports/32/32044bd2-481f-4cf1-a656-e2b2fb1594eb.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/32/3272d0b7-9c43-4d26-b716-d86fd9359c82.json" afterPath="$PROJECT_DIR$/library/imports/32/3272d0b7-9c43-4d26-b716-d86fd9359c82.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/42/429ea7bd-b3d6-4e9a-a37e-921be83d66a6.json" afterPath="$PROJECT_DIR$/library/imports/42/429ea7bd-b3d6-4e9a-a37e-921be83d66a6.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/4a/4a37dd57-78cd-4cec-aad4-f11a73d12b63.json" afterPath="$PROJECT_DIR$/library/imports/4a/4a37dd57-78cd-4cec-aad4-f11a73d12b63.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/4f/4f5309f3-9f74-4126-9c11-33354db7e27b.json" afterPath="$PROJECT_DIR$/library/imports/4f/4f5309f3-9f74-4126-9c11-33354db7e27b.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/59/5965ffac-69da-4b55-bcde-9225d0613c28.json" afterPath="$PROJECT_DIR$/library/imports/59/5965ffac-69da-4b55-bcde-9225d0613c28.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/5c/5c3bb932-6c3c-468f-88a9-c8c61d458641.json" afterPath="$PROJECT_DIR$/library/imports/5c/5c3bb932-6c3c-468f-88a9-c8c61d458641.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/5f/5fe5dcaa-b513-4dc5-a166-573627b3a159.json" afterPath="$PROJECT_DIR$/library/imports/5f/5fe5dcaa-b513-4dc5-a166-573627b3a159.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/61/61aeb05b-3b32-452b-8eed-2b76deeed554.json" afterPath="$PROJECT_DIR$/library/imports/61/61aeb05b-3b32-452b-8eed-2b76deeed554.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/67/67e68bc9-dad5-4ad9-a2d8-7e03d458e32f.json" afterPath="$PROJECT_DIR$/library/imports/67/67e68bc9-dad5-4ad9-a2d8-7e03d458e32f.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/68/6827ca32-0107-4552-bab2-dfb31799bb44.json" afterPath="$PROJECT_DIR$/library/imports/68/6827ca32-0107-4552-bab2-dfb31799bb44.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/71/7168db62-0edc-42e5-be5d-682cf6c4a165.json" afterPath="$PROJECT_DIR$/library/imports/71/7168db62-0edc-42e5-be5d-682cf6c4a165.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/76/76e93cf0-00e6-490c-b579-be9db07ccec8.json" afterPath="$PROJECT_DIR$/library/imports/76/76e93cf0-00e6-490c-b579-be9db07ccec8.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/77/771fecae-9d99-4e28-b677-73a1960f8161.json" afterPath="$PROJECT_DIR$/library/imports/77/771fecae-9d99-4e28-b677-73a1960f8161.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/78/785a442c-3ceb-45be-a46e-7317f625f3b9.json" afterPath="$PROJECT_DIR$/library/imports/78/785a442c-3ceb-45be-a46e-7317f625f3b9.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/78/78da2f4e-3555-4662-90d7-053af0a89b41.js" afterPath="$PROJECT_DIR$/library/imports/78/78da2f4e-3555-4662-90d7-053af0a89b41.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/78/78da2f4e-3555-4662-90d7-053af0a89b41.js.map" afterPath="$PROJECT_DIR$/library/imports/78/78da2f4e-3555-4662-90d7-053af0a89b41.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/7d/7d4ffd94-42d6-4045-9db7-a744229adfc4.json" afterPath="$PROJECT_DIR$/library/imports/7d/7d4ffd94-42d6-4045-9db7-a744229adfc4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/7d/7de03a80-4457-438d-95a7-3e7cdffd6086.json" afterPath="$PROJECT_DIR$/library/imports/7d/7de03a80-4457-438d-95a7-3e7cdffd6086.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/88/88e79fd5-96b4-4a77-a1f4-312467171014.json" afterPath="$PROJECT_DIR$/library/imports/88/88e79fd5-96b4-4a77-a1f4-312467171014.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/89/899df430-e245-4ee5-b1ad-07ac50e7e4f7.json" afterPath="$PROJECT_DIR$/library/imports/89/899df430-e245-4ee5-b1ad-07ac50e7e4f7.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/8c/8c5001fd-07ee-4a4b-a8a0-63e15195e94d.json" afterPath="$PROJECT_DIR$/library/imports/8c/8c5001fd-07ee-4a4b-a8a0-63e15195e94d.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/8c/8cdb44ac-a3f6-449f-b354-7cd48cf84061.json" afterPath="$PROJECT_DIR$/library/imports/8c/8cdb44ac-a3f6-449f-b354-7cd48cf84061.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/90/90004ad6-2f6d-40e1-93ef-b714375c6f06.json" afterPath="$PROJECT_DIR$/library/imports/90/90004ad6-2f6d-40e1-93ef-b714375c6f06.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/96/96083d03-c332-4a3f-9386-d03e2d19e8ee.json" afterPath="$PROJECT_DIR$/library/imports/96/96083d03-c332-4a3f-9386-d03e2d19e8ee.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/97/972b9a4d-47ee-4c74-b5c3-61d8a69bc29f.json" afterPath="$PROJECT_DIR$/library/imports/97/972b9a4d-47ee-4c74-b5c3-61d8a69bc29f.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/9b/9bbda31e-ad49-43c9-aaf2-f7d9896bac69.json" afterPath="$PROJECT_DIR$/library/imports/9b/9bbda31e-ad49-43c9-aaf2-f7d9896bac69.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/a0/a0d74c3a-fd19-43ea-93c8-c327ca2c5a7f.js" afterPath="$PROJECT_DIR$/library/imports/a0/a0d74c3a-fd19-43ea-93c8-c327ca2c5a7f.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/a0/a0d74c3a-fd19-43ea-93c8-c327ca2c5a7f.js.map" afterPath="$PROJECT_DIR$/library/imports/a0/a0d74c3a-fd19-43ea-93c8-c327ca2c5a7f.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/a2/a23235d1-15db-4b95-8439-a2e005bfff91.json" afterPath="$PROJECT_DIR$/library/imports/a2/a23235d1-15db-4b95-8439-a2e005bfff91.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/a7/a7c67c88-f5fb-4df5-b644-78688383d1ee.json" afterPath="$PROJECT_DIR$/library/imports/a7/a7c67c88-f5fb-4df5-b644-78688383d1ee.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/ae/ae6f1732-02b2-46f9-be33-4676ce908cc4.json" afterPath="$PROJECT_DIR$/library/imports/ae/ae6f1732-02b2-46f9-be33-4676ce908cc4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/b2/b2cdc193-64ae-46e7-8115-22de5ba090ec.js" afterPath="$PROJECT_DIR$/library/imports/b2/b2cdc193-64ae-46e7-8115-22de5ba090ec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/b2/b2cdc193-64ae-46e7-8115-22de5ba090ec.js.map" afterPath="$PROJECT_DIR$/library/imports/b2/b2cdc193-64ae-46e7-8115-22de5ba090ec.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/b2/b2db17b5-4825-421a-9aa4-6d038924c649.json" afterPath="$PROJECT_DIR$/library/imports/b2/b2db17b5-4825-421a-9aa4-6d038924c649.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/bf/bf0a434c-84dd-4a8e-a08a-7a36f180cc75.json" afterPath="$PROJECT_DIR$/library/imports/bf/bf0a434c-84dd-4a8e-a08a-7a36f180cc75.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/c3/c340f6e5-2a5c-466f-b170-19117f696b65.json" afterPath="$PROJECT_DIR$/library/imports/c3/c340f6e5-2a5c-466f-b170-19117f696b65.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/c9/c9fa51ff-3f01-4601-8f80-325d1b11dab7.json" afterPath="$PROJECT_DIR$/library/imports/c9/c9fa51ff-3f01-4601-8f80-325d1b11dab7.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/ca/ca8401fe-ad6e-41a8-bd46-8e3e4e9945be.json" afterPath="$PROJECT_DIR$/library/imports/ca/ca8401fe-ad6e-41a8-bd46-8e3e4e9945be.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/cd/cd33edea-55f5-46c2-958d-357a01384a36.json" afterPath="$PROJECT_DIR$/library/imports/cd/cd33edea-55f5-46c2-958d-357a01384a36.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/cf/cf78b1b4-eb74-42d7-84e5-89116e11dc35.json" afterPath="$PROJECT_DIR$/library/imports/cf/cf78b1b4-eb74-42d7-84e5-89116e11dc35.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/d1/d1b8be49-b0a0-435c-83b7-552bed4bbe35.json" afterPath="$PROJECT_DIR$/library/imports/d1/d1b8be49-b0a0-435c-83b7-552bed4bbe35.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/d9/d9f8505a-54b8-45aa-8b5c-f809078d4382.json" afterPath="$PROJECT_DIR$/library/imports/d9/d9f8505a-54b8-45aa-8b5c-f809078d4382.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/da/dab92d92-73ab-434b-a7e8-e2d5685ccb8c.json" afterPath="$PROJECT_DIR$/library/imports/da/dab92d92-73ab-434b-a7e8-e2d5685ccb8c.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/dd/ddb3fee5-48f4-4344-9dbf-74d8bd92c89a.json" afterPath="$PROJECT_DIR$/library/imports/dd/ddb3fee5-48f4-4344-9dbf-74d8bd92c89a.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/e7/e7a238eb-3d0f-4320-acc2-58ad9c9780f0.json" afterPath="$PROJECT_DIR$/library/imports/e7/e7a238eb-3d0f-4320-acc2-58ad9c9780f0.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/e7/e7aba14b-f956-4480-b254-8d57832e273f.json" afterPath="$PROJECT_DIR$/library/imports/e7/e7aba14b-f956-4480-b254-8d57832e273f.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/e9/e9ec654c-97a2-4787-9325-e6a10375219a.json" afterPath="$PROJECT_DIR$/library/imports/e9/e9ec654c-97a2-4787-9325-e6a10375219a.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/f0/f0048c10-f03e-4c97-b9d3-3506e1d58952.json" afterPath="$PROJECT_DIR$/library/imports/f0/f0048c10-f03e-4c97-b9d3-3506e1d58952.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/library/uuid-to-mtime.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/assets.json" afterPath="$PROJECT_DIR$/local/assets.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/console.json" afterPath="$PROJECT_DIR$/local/console.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/hierarchy.json" afterPath="$PROJECT_DIR$/local/hierarchy.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/layout.windows.json" afterPath="$PROJECT_DIR$/local/layout.windows.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/local.json" afterPath="$PROJECT_DIR$/local/local.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/logs/project.log" afterPath="$PROJECT_DIR$/local/logs/project.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/node-library.json" afterPath="$PROJECT_DIR$/local/node-library.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/scene.json" afterPath="$PROJECT_DIR$/local/scene.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings/project.json" afterPath="$PROJECT_DIR$/settings/project.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Game.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Game.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Game.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Game2.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Game2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Game2.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Game2.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/btnClick.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/btnClick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/btnClick.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/btnClick.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/common/Global.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/common/Global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/common/Global.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/common/Global.js.map" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Game2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/Script/Game2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2310">
+              <caret line="119" column="66" lean-forward="false" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="btnClick.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/Script/btnClick.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/Script/Game2.js" />
+        <option value="$PROJECT_DIR$/assets/Script/btnClick.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smallGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smallGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Peyton\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d5aed90-b4e1-449e-a870-b50c03162818" name="Default" comment="" />
+      <created>1522662641236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522662641236</updated>
+      <workItem from="1522662642672" duration="2246000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2246000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1936" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/NodeClickAnim.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="37" column="76" lean-forward="true" selection-start-line="37" selection-start-column="76" selection-end-line="38" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/btnClick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Game2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="119" column="66" lean-forward="false" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

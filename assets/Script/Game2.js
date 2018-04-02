@@ -17,7 +17,7 @@ cc.Class({
         refreshBtn: {
             default: null,
             type: cc.Button
-        }
+        },
     },
 
     ctor() {
@@ -56,8 +56,6 @@ cc.Class({
         }
         // 随机图片
         let _randomArr = this.picArrs.slice(0, this.row);
-        // 获取所有坐标的数组长度
-        const length = (this.row + 2) * (this.col + 2);
         // 屏幕宽度
         const winSizeW = cc.director.getWinSize().width;
         // 展示的宽度
