@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "timg",
+    "texture": "94a7679f-e1fb-41e6-a799-b76d95df99a0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1000,
+      1000
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1000,
+      1000
+    ]
+  }
+}

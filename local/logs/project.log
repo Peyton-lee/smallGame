@@ -1,0 +1,54 @@
+2018-04-01T13:33:33.084Z - normal: Load ~/.CocosCreator/settings.json
+2018-04-01T13:33:33.087Z - normal: checking language setting...
+2018-04-01T13:33:33.087Z - normal: Language: zh
+2018-04-01T13:33:34.172Z - success: protocol editor-framework registered
+2018-04-01T13:33:34.173Z - success: protocol app registered
+2018-04-01T13:33:34.173Z - success: protocol theme registered
+2018-04-01T13:33:34.173Z - success: protocol packages registered
+2018-04-01T13:33:34.173Z - success: protocol unpack registerred
+2018-04-01T13:33:34.173Z - success: protocol disable-commonjs registerred
+2018-04-01T13:33:34.427Z - normal: connected!
+2018-04-01T13:33:34.431Z - normal: Check project /Users/peyton/Desktop/lianliankan
+2018-04-01T13:33:34.433Z - normal: Initializing Cocos2d
+2018-04-01T13:33:34.717Z - normal: Initializing Asset Database
+2018-04-01T13:33:34.779Z - success: protocol uuid registerred
+2018-04-01T13:33:34.779Z - success: protocol db registerred
+2018-04-01T13:33:34.780Z - success: protocol thumbnail registerred
+2018-04-01T13:33:34.780Z - normal: Loading editor/builtin packages
+2018-04-01T13:33:34.859Z - success: anysdk loaded
+2018-04-01T13:33:34.993Z - success: assets loaded
+2018-04-01T13:33:34.997Z - success: builder loaded
+2018-04-01T13:33:34.999Z - success: cocos-analytics loaded
+2018-04-01T13:33:35.011Z - success: console loaded
+2018-04-01T13:33:35.023Z - success: hierarchy loaded
+2018-04-01T13:33:35.035Z - success: inspector loaded
+2018-04-01T13:33:35.037Z - success: keystore loaded
+2018-04-01T13:33:35.043Z - success: node-library loaded
+2018-04-01T13:33:35.045Z - success: package-asset loaded
+2018-04-01T13:33:35.048Z - success: preferences loaded
+2018-04-01T13:33:35.052Z - success: project-exporter loaded
+2018-04-01T13:33:35.074Z - success: project-importer loaded
+2018-04-01T13:33:35.077Z - success: project-settings loaded
+2018-04-01T13:33:35.081Z - success: ui-kit loaded
+2018-04-01T13:33:35.086Z - success: ui-grid loaded
+2018-04-01T13:33:35.097Z - success: scene loaded
+2018-04-01T13:33:35.099Z - success: sprite-editor loaded
+2018-04-01T13:33:35.103Z - success: store loaded
+2018-04-01T13:33:35.110Z - success: timeline loaded
+2018-04-01T13:33:35.110Z - normal: Loading builtin packages
+2018-04-01T13:33:35.114Z - success: asset-db-debugger loaded
+2018-04-01T13:33:35.115Z - success: color-picker loaded
+2018-04-01T13:33:35.120Z - success: package-manager loaded
+2018-04-01T13:33:35.205Z - success: sdkbox loaded
+2018-04-01T13:33:35.210Z - normal: last time update is in one day
+2018-04-01T13:33:35.211Z - success: tester loaded
+2018-04-01T13:33:35.215Z - success: ui-kit-preview-extra loaded
+2018-04-01T13:33:35.220Z - success: ui-kit-preview loaded
+2018-04-01T13:33:35.223Z - success: ui-tree loaded
+2018-04-01T13:33:36.361Z - normal: Initializing project /Users/peyton/Desktop/lianliankan
+2018-04-01T13:33:36.364Z - normal: Loading packages
+2018-04-01T13:33:36.367Z - normal: Watching packages
+2018-04-01T13:33:36.377Z - normal: Run Application
+2018-04-01T13:33:37.514Z - success: preview server running at http://localhost:7456
+2018-04-01T13:33:42.240Z - normal: 1.8.1
+2018-04-01T14:36:29.538Z - info: shutdown preview server

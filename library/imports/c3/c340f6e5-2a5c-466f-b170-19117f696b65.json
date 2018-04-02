@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fanhui_2",
+    "texture": "d2347ae6-eb11-4b8f-addf-b6358cf6d77a",
+    "atlas": "",
+    "rect": [
+      6,
+      2,
+      202,
+      69
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      214,
+      74
+    ]
+  }
+}
