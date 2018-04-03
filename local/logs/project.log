@@ -1,57 +1,78 @@
-2018-04-02T13:40:29.465Z - normal: Load ~/.CocosCreator/settings.json
-2018-04-02T13:40:29.469Z - normal: checking language setting...
-2018-04-02T13:40:29.469Z - normal: Language: zh
-2018-04-02T13:40:30.628Z - success: protocol editor-framework registered
-2018-04-02T13:40:30.628Z - success: protocol app registered
-2018-04-02T13:40:30.628Z - success: protocol theme registered
-2018-04-02T13:40:30.628Z - success: protocol packages registered
-2018-04-02T13:40:30.629Z - success: protocol unpack registerred
-2018-04-02T13:40:30.629Z - success: protocol disable-commonjs registerred
-2018-04-02T13:40:30.919Z - normal: connected!
-2018-04-02T13:40:30.923Z - normal: Check project /Users/peyton/Desktop/Coding/github/smallGame
-2018-04-02T13:40:30.925Z - normal: Initializing Cocos2d
-2018-04-02T13:40:31.210Z - normal: Initializing Asset Database
-2018-04-02T13:40:31.271Z - success: protocol uuid registerred
-2018-04-02T13:40:31.271Z - success: protocol db registerred
-2018-04-02T13:40:31.271Z - success: protocol thumbnail registerred
-2018-04-02T13:40:31.272Z - normal: Loading editor/builtin packages
-2018-04-02T13:40:31.330Z - success: anysdk loaded
-2018-04-02T13:40:31.489Z - success: assets loaded
-2018-04-02T13:40:31.493Z - success: builder loaded
-2018-04-02T13:40:31.495Z - success: cocos-analytics loaded
-2018-04-02T13:40:31.507Z - success: console loaded
-2018-04-02T13:40:31.520Z - success: hierarchy loaded
-2018-04-02T13:40:31.534Z - success: inspector loaded
-2018-04-02T13:40:31.537Z - success: keystore loaded
-2018-04-02T13:40:31.544Z - success: node-library loaded
-2018-04-02T13:40:31.547Z - success: package-asset loaded
-2018-04-02T13:40:31.551Z - success: preferences loaded
-2018-04-02T13:40:31.555Z - success: project-exporter loaded
-2018-04-02T13:40:31.581Z - success: project-importer loaded
-2018-04-02T13:40:31.584Z - success: project-settings loaded
-2018-04-02T13:40:31.588Z - success: ui-kit loaded
-2018-04-02T13:40:31.592Z - success: ui-grid loaded
-2018-04-02T13:40:31.604Z - success: scene loaded
-2018-04-02T13:40:31.606Z - success: sprite-editor loaded
-2018-04-02T13:40:31.612Z - success: store loaded
-2018-04-02T13:40:31.618Z - success: timeline loaded
-2018-04-02T13:40:31.619Z - normal: Loading builtin packages
-2018-04-02T13:40:31.623Z - success: asset-db-debugger loaded
-2018-04-02T13:40:31.625Z - success: color-picker loaded
-2018-04-02T13:40:31.629Z - success: package-manager loaded
-2018-04-02T13:40:31.704Z - success: sdkbox loaded
-2018-04-02T13:40:31.707Z - normal: last time update is in one day
-2018-04-02T13:40:31.708Z - success: tester loaded
-2018-04-02T13:40:31.712Z - success: ui-kit-preview-extra loaded
-2018-04-02T13:40:31.715Z - success: ui-kit-preview loaded
-2018-04-02T13:40:31.719Z - success: ui-tree loaded
-2018-04-02T13:40:32.957Z - normal: Initializing project /Users/peyton/Desktop/Coding/github/smallGame
-2018-04-02T13:40:32.960Z - normal: Loading packages
-2018-04-02T13:40:32.964Z - normal: Watching packages
-2018-04-02T13:40:32.973Z - normal: Run Application
-2018-04-02T13:40:34.876Z - success: preview server running at http://localhost:7456
-2018-04-02T13:40:39.073Z - normal: 1.8.1
-2018-04-02T13:42:07.953Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:2243
-2018-04-02T13:42:07.955Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:2247
-2018-04-02T13:43:23.707Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3401
-2018-04-02T13:52:53.689Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:15273
+2018-04-03T12:55:43.147Z - normal: Load ~/.CocosCreator/settings.json
+2018-04-03T12:55:43.151Z - normal: checking language setting...
+2018-04-03T12:55:43.151Z - normal: Language: zh
+2018-04-03T12:55:43.879Z - error: { Error: getaddrinfo ENOTFOUND creator-api.cocos.com creator-api.cocos.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'creator-api.cocos.com',
+  host: 'creator-api.cocos.com',
+  port: 443 }
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/share/login/lib/user.js:1:1441
+    at ClientRequest.Https.request.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/share/login/lib/network.js:1:873)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:191:7)
+    at TLSSocket.socketErrorListener (_http_client.js:358:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:191:7)
+    at connectErrorNT (net.js:1032:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+2018-04-03T12:55:43.884Z - normal: failed to connect login server... skipping login
+2018-04-03T12:55:43.885Z - normal: Check project /Users/peyton/Desktop/Coding/github/smallGame
+2018-04-03T12:55:43.887Z - success: protocol editor-framework registered
+2018-04-03T12:55:43.887Z - success: protocol app registered
+2018-04-03T12:55:43.887Z - success: protocol theme registered
+2018-04-03T12:55:43.887Z - success: protocol packages registered
+2018-04-03T12:55:43.887Z - success: protocol unpack registerred
+2018-04-03T12:55:43.887Z - success: protocol disable-commonjs registerred
+2018-04-03T12:55:43.888Z - normal: Initializing Cocos2d
+2018-04-03T12:55:44.068Z - normal: Initializing Asset Database
+2018-04-03T12:55:44.095Z - success: protocol uuid registerred
+2018-04-03T12:55:44.095Z - success: protocol db registerred
+2018-04-03T12:55:44.095Z - success: protocol thumbnail registerred
+2018-04-03T12:55:44.096Z - normal: Loading editor/builtin packages
+2018-04-03T12:55:44.111Z - success: anysdk loaded
+2018-04-03T12:55:44.213Z - success: assets loaded
+2018-04-03T12:55:44.216Z - success: builder loaded
+2018-04-03T12:55:44.218Z - success: cocos-analytics loaded
+2018-04-03T12:55:44.222Z - success: console loaded
+2018-04-03T12:55:44.226Z - success: hierarchy loaded
+2018-04-03T12:55:44.230Z - success: inspector loaded
+2018-04-03T12:55:44.231Z - success: keystore loaded
+2018-04-03T12:55:44.235Z - success: node-library loaded
+2018-04-03T12:55:44.237Z - success: package-asset loaded
+2018-04-03T12:55:44.239Z - success: preferences loaded
+2018-04-03T12:55:44.241Z - success: project-exporter loaded
+2018-04-03T12:55:44.260Z - success: project-importer loaded
+2018-04-03T12:55:44.263Z - success: project-settings loaded
+2018-04-03T12:55:44.265Z - success: ui-kit loaded
+2018-04-03T12:55:44.269Z - success: ui-grid loaded
+2018-04-03T12:55:44.273Z - success: scene loaded
+2018-04-03T12:55:44.274Z - success: sprite-editor loaded
+2018-04-03T12:55:44.278Z - success: store loaded
+2018-04-03T12:55:44.283Z - success: timeline loaded
+2018-04-03T12:55:44.283Z - normal: Loading builtin packages
+2018-04-03T12:55:44.287Z - success: asset-db-debugger loaded
+2018-04-03T12:55:44.288Z - success: color-picker loaded
+2018-04-03T12:55:44.292Z - success: package-manager loaded
+2018-04-03T12:55:44.356Z - error: Error: getaddrinfo ENOTFOUND metrics.sdkbox.com metrics.sdkbox.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:1068)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-04-03T12:55:44.357Z - success: sdkbox loaded
+2018-04-03T12:55:44.362Z - success: tester loaded
+2018-04-03T12:55:44.367Z - success: ui-kit-preview-extra loaded
+2018-04-03T12:55:44.370Z - success: ui-kit-preview loaded
+2018-04-03T12:55:44.372Z - success: ui-tree loaded
+2018-04-03T12:55:45.185Z - normal: Initializing project /Users/peyton/Desktop/Coding/github/smallGame
+2018-04-03T12:55:45.188Z - normal: Loading packages
+2018-04-03T12:55:45.193Z - normal: Watching packages
+2018-04-03T12:55:45.201Z - normal: Run Application
+2018-04-03T12:55:45.905Z - success: preview server running at http://localhost:7456
+2018-04-03T12:55:49.866Z - normal: 1.8.1
+2018-04-03T13:18:56.020Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:24101

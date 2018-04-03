@@ -27,18 +27,26 @@ cc.Class({
     btnClick: function btnClick(event) {
         cc.audioEngine.playEffect(this.btnMp3);
     },
-
-
     click: function click(event) {
         cc.director.loadScene("Began");
     },
-
     typeClick: function typeClick(event, data) {
         Global._type = +data;
         cc.director.loadScene("Game");
+    },
+    gobackClick: function gobackClick() {
+        cc.director.loadScene("Change");
+    },
+    changeGameClick: function changeGameClick(event, data) {
+        this.btnClick();
+        if (data === "lianliankan") {
+            cc.director.loadScene("Began");
+        } else if (data === "huarongdao") {
+            cc.director.loadScene("HuaGame");
+        }
     }
-
     // update (dt) {},
+
 });
 
 cc._RF.pop();

@@ -11,7 +11,7 @@ cc.Class({
 
     // onLoad () {},
 
-    start () {
+    start() {
         this.node.on(cc.Node.EventType.TOUCH_END, (event) => {
             this.btnClick();
         }, this);
@@ -21,14 +21,26 @@ cc.Class({
         cc.audioEngine.playEffect(this.btnMp3);
     },
 
-    click: function (event) {
+    click(event) {
         cc.director.loadScene("Began");
     },
 
-    typeClick: function (event, data) {
+    typeClick(event, data) {
         Global._type = +data;
         cc.director.loadScene("Game");
     },
+    
+    gobackClick() {
+        cc.director.loadScene("Change");
+    },
 
+    changeGameClick(event, data) {
+        this.btnClick();
+        if (data === "lianliankan") {
+            cc.director.loadScene("Began"); 
+        } else if (data === "huarongdao") {
+            cc.director.loadScene("HuaGame"); 
+        }
+    }
     // update (dt) {},
 });
