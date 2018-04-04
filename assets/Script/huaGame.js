@@ -23,7 +23,7 @@ cc.Class({
         let row = this.row;
         let col = this.col;
         const length = row * col;
-        const winSizeW = this.node.width;
+        const winSizeW = 500;
 
         // 获取随机顺序的数组
         let arrs = this._getSortArrs(length, 2000);
@@ -102,7 +102,8 @@ cc.Class({
 
         // 判断是否结束游戏
         if (this.checkPassGame()) {
-            cc.log("YOU WIN!! GAME OVER!")
+            cc.log("YOU WIN!! GAME OVER!");
+            cc.director.loadScene("Pass");
         };
 
     },

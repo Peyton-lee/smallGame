@@ -510,7 +510,10 @@
     "node": {
       "__id__": 7
     },
-    "_enabled": true
+    "_enabled": true,
+    "btnMp3": {
+      "__uuid__": "8febffb7-9062-4f0f-8815-6b3c35c5df90"
+    }
   },
   {
     "__type__": "cc.Canvas",

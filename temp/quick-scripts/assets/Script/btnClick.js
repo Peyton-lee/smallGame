@@ -28,7 +28,7 @@ cc.Class({
         cc.audioEngine.playEffect(this.btnMp3);
     },
     click: function click(event) {
-        cc.director.loadScene("Began");
+        cc.director.loadScene("Change");
     },
     typeClick: function typeClick(event, data) {
         Global._type = +data;

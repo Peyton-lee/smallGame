@@ -22,7 +22,7 @@ cc.Class({
     },
 
     click(event) {
-        cc.director.loadScene("Began");
+        cc.director.loadScene("Change");
     },
 
     typeClick(event, data) {

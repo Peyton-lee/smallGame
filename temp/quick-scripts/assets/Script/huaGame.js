@@ -24,20 +24,15 @@ cc.Class({
         // 行
         this.row = 4;
     },
-
-
-    // use this for initialization
     onLoad: function onLoad() {
+        var _this = this;
 
-        // 行
         var row = this.row;
-        // 列
         var col = this.col;
         var length = row * col;
-        var winSizeW = this.node.width;
+        var winSizeW = 500;
 
         // 获取随机顺序的数组
-        // const arrs = this.getSortArrs(length - 1);
         var arrs = this._getSortArrs(length, 2000);
 
         // 计算每个盒子宽度
@@ -55,28 +50,26 @@ cc.Class({
             };
         }
 
-        var self = this;
-        for (var i = 0; i < length - 1; i++) {
+        for (var _i = 0; _i < length - 1; _i++) {
             var box = cc.instantiate(this.box);
             this.node.addChild(box);
             var textLabel = box.getChildByName("label");
-            // 赋值
-            textLabel.getComponent(cc.Label).string = arrs[i];
+            textLabel.getComponent(cc.Label).string = arrs[_i];
             box.setScale(width / box.width);
 
             // 保存到数据结构中
-            this.arr[i].val = arrs[i];
-            this.arr[i].box = box;
+            this.arr[_i].val = arrs[_i];
+            this.arr[_i].box = box;
 
-            box.setPosition(this.arr[i].pos);
+            box.setPosition(this.arr[_i].pos);
 
             // 绑定点击事件
             box.on("mousedown", function (event) {
                 var id = +event.currentTarget.getChildByName('label').getComponent(cc.Label).string;
-                var target;
-                var idx;
+                var target = void 0;
+                var idx = void 0;
                 // 遍历找出点击的盒子target
-                self.arr.forEach(function (item, _idx) {
+                _this.arr.forEach(function (item, _idx) {
                     if (id === item.val) {
                         target = item;
                         idx = _idx;
@@ -85,22 +78,20 @@ cc.Class({
                 });
 
                 // 获取点击盒子的上下左右四个坐标
-                var nears = [[target.point[0], target.point[1] - 1], [target.point[0] + 1, target.point[1]], [target.point[0], target.point[1] + 1], [target.point[0] - 1, target.point[1]]];
-
-                var oldIndex = idx,
-                    newIndex;
+                var nears = [[target.point[0], target.point[1] - 1], [target.point[0] + 1, target.point[1]], [target.point[0], target.point[1] + 1], [target.point[0] - 1, target.point[1]]],
+                    oldIndex = idx,
+                    newIndex = void 0;
                 nears.forEach(function (_item) {
                     var index = _item[0] + _item[1] * col;
-                    if (0 <= _item[0] && _item[0] < col && 0 <= _item[1] && _item[1] < row && !self.arr[index].val) {
+                    if (0 <= _item[0] && _item[0] < col && 0 <= _item[1] && _item[1] < row && !_this.arr[index].val) {
                         newIndex = index;
                     }
                 });
                 // 获取替换的新位置 newIndex >= 0则说明四周存在空的位置 和老位置一起传入
-                newIndex >= 0 && self.runAction(oldIndex, newIndex);
+                newIndex >= 0 && _this.runAction(oldIndex, newIndex);
             });
         }
     },
-
     runAction: function runAction(oldIndex, newIndex) {
         var newAddr = this.arr[newIndex];
         var oldAddr = this.arr[oldIndex];
@@ -114,9 +105,9 @@ cc.Class({
         // 判断是否结束游戏
         if (this.checkPassGame()) {
             cc.log("YOU WIN!! GAME OVER!");
+            cc.director.loadScene("Pass");
         };
     },
-
     checkPassGame: function checkPassGame() {
         var result = true;
         this.arr.forEach(function (item, idx) {
@@ -127,7 +118,6 @@ cc.Class({
         });
         return result;
     },
-
     getSortArrs: function getSortArrs(length) {
         var result = [];
         for (var i = 0; i < length; i++) {
@@ -137,9 +127,8 @@ cc.Class({
         });
         return result;
     },
-
     _getSortArrs: function _getSortArrs(length, count) {
-        var _this = this;
+        var _this2 = this;
 
         var result = [];
         for (var i = 0; i < length - 1; i++) {
@@ -150,53 +139,46 @@ cc.Class({
             var index = arrs.indexOf(null);
             var targetIdx = null;
             if (index === 0) {
-                targetIdx = _this.getRandomTarget([index + 1, index + _this.col]);
-            } else if (index === _this.col - 1) {
-                targetIdx = _this.getRandomTarget([index - 1, index + _this.col]);
-            } else if (index === length - _this.col) {
-                targetIdx = _this.getRandomTarget([index + 1, index - _this.col]);
+                targetIdx = _this2.getRandomTarget([index + 1, index + _this2.col]);
+            } else if (index === _this2.col - 1) {
+                targetIdx = _this2.getRandomTarget([index - 1, index + _this2.col]);
+            } else if (index === length - _this2.col) {
+                targetIdx = _this2.getRandomTarget([index + 1, index - _this2.col]);
             } else if (index === length - 1) {
-                targetIdx = _this.getRandomTarget([index - 1, index - _this.col]);
+                targetIdx = _this2.getRandomTarget([index - 1, index - _this2.col]);
             } else {
-                if (index < _this.col - 1) {
-                    targetIdx = _this.getRandomTarget([index + 1, index - 1, index + _this.col]);
-                } else if ((index + 1) % _this.col === 0) {
-                    targetIdx = _this.getRandomTarget([index - 1, index + _this.col, index - _this.col]);
-                } else if (index > length - _this.col) {
-                    targetIdx = _this.getRandomTarget([index + 1, index - 1, index - _this.col]);
-                } else if (index % _this.col === 0) {
-                    targetIdx = _this.getRandomTarget([index + 1, index + _this.col, index - _this.col]);
+                if (index < _this2.col - 1) {
+                    targetIdx = _this2.getRandomTarget([index + 1, index - 1, index + _this2.col]);
+                } else if ((index + 1) % _this2.col === 0) {
+                    targetIdx = _this2.getRandomTarget([index - 1, index + _this2.col, index - _this2.col]);
+                } else if (index > length - _this2.col) {
+                    targetIdx = _this2.getRandomTarget([index + 1, index - 1, index - _this2.col]);
+                } else if (index % _this2.col === 0) {
+                    targetIdx = _this2.getRandomTarget([index + 1, index + _this2.col, index - _this2.col]);
                 } else {
-                    targetIdx = _this.getRandomTarget([index + 1, index - 1, index + _this.col, index - _this.col]);
+                    targetIdx = _this2.getRandomTarget([index + 1, index - 1, index + _this2.col, index - _this2.col]);
                 }
             }
             var _ref = [arrs[targetIdx], arrs[index]];
             arrs[index] = _ref[0];
             arrs[targetIdx] = _ref[1];
         };
-        for (var i = 0; i < 100 * 100 * 100; i++) {
+        for (var _i2 = 0; _i2 < 100 * 100 * 100; _i2++) {
             var nullIdx = result.indexOf(null);
-            if (i > count && nullIdx === length - 1) {
+            if (_i2 > count && nullIdx === length - 1) {
                 break;
             }
             _fn(result);
         }
         return result;
     },
-
-
     getRandom: function getRandom(l) {
         return 0 | cc.random0To1() * l;
     },
-
     getRandomTarget: function getRandomTarget(arrs) {
         var randomIdx = this.getRandom(arrs.length);
         return arrs[randomIdx];
-    },
-
-
-    // called every frame
-    update: function update(dt) {}
+    }
 });
 
 cc._RF.pop();
