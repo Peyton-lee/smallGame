@@ -31,7 +31,9 @@ cc.Class({
         }
     },
 
-    ctor: function ctor() {
+    onLoad: function onLoad() {
+        var _this = this;
+
         // 存放所有盒子的数据结构
         this.arr = [];
         // 存放所有的盒子实例
@@ -48,10 +50,6 @@ cc.Class({
         this.row = Global._type;
         // 列
         this.col = Global._type;
-    },
-    onLoad: function onLoad() {
-        var _this = this;
-
         this.gameStart();
 
         this.refreshBtn.node.on(cc.Node.EventType.TOUCH_END, function (event) {

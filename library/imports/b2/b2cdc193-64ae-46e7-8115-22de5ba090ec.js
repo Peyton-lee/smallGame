@@ -15,8 +15,6 @@ cc.Class({
         }
     },
 
-    // onLoad () {},
-
     start: function start() {
         var _this = this;
 
@@ -37,16 +35,19 @@ cc.Class({
     gobackClick: function gobackClick() {
         cc.director.loadScene("Change");
     },
+    xxlGobackClick: function xxlGobackClick() {
+        cc.director.loadScene("Change");
+    },
     changeGameClick: function changeGameClick(event, data) {
         this.btnClick();
         if (data === "lianliankan") {
             cc.director.loadScene("Began");
         } else if (data === "huarongdao") {
             cc.director.loadScene("HuaGame");
+        } else if (data === "xiaoxiaole") {
+            cc.director.loadScene("XXLGame");
         }
     }
-    // update (dt) {},
-
 });
 
 cc._RF.pop();

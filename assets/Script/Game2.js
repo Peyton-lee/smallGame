@@ -25,7 +25,7 @@ cc.Class({
         },
     },
 
-    ctor() {
+    onLoad() {
         // 存放所有盒子的数据结构
         this.arr = [];
         // 存放所有的盒子实例
@@ -42,15 +42,12 @@ cc.Class({
         this.row = Global._type;
         // 列
         this.col = Global._type;
-    },
-
-    onLoad() {
         this.gameStart();
-        
+
         this.refreshBtn.node.on(cc.Node.EventType.TOUCH_END, event => {
             this.gameStart();
         })
-        
+
         this.backBtn.node.on(cc.Node.EventType.TOUCH_END, event => {
             cc.director.loadScene('Began');
         })

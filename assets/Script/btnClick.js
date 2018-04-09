@@ -9,8 +9,6 @@ cc.Class({
         }
     },
 
-    // onLoad () {},
-
     start() {
         this.node.on(cc.Node.EventType.TOUCH_END, (event) => {
             this.btnClick();
@@ -33,6 +31,10 @@ cc.Class({
     gobackClick() {
         cc.director.loadScene("Change");
     },
+    
+    xxlGobackClick() {
+        cc.director.loadScene("Change");
+    },
 
     changeGameClick(event, data) {
         this.btnClick();
@@ -40,7 +42,9 @@ cc.Class({
             cc.director.loadScene("Began"); 
         } else if (data === "huarongdao") {
             cc.director.loadScene("HuaGame"); 
+        } else if (data === "xiaoxiaole") {
+            cc.director.loadScene("XXLGame"); 
         }
     }
-    // update (dt) {},
+
 });
