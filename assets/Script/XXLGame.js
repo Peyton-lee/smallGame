@@ -7,17 +7,20 @@ cc.Class({
     },
 
     onLoad() {
+        
         this.row = 4;
         this.col = 4;
+        this._probability = 0.01; // 炸弹几率
 
         // 存放所有盒子的数据结构
         this.arr = [];
     },
 
     start() {
+        // 游戏结束的弹窗
         this.showTip.getComponent(cc.Sprite).node.active = false;
         this.showTip.getComponent(cc.Sprite).node.setLocalZOrder(100);
-        
+
         // 屏幕
         const winSize = cc.director.getWinSize();
         // 获取随机数组
@@ -53,6 +56,7 @@ cc.Class({
     getAroundPoints(point) {
         let result = [];
         if (!point.isValid) return result;
+        // 上下炸弹 炸整列 不用判断是否是isValid
         let leftPoint = this.arr[point.index - 1];
         if (leftPoint && leftPoint.box && leftPoint.isValid && point.point[0] !== 0 && leftPoint.val === point.val) {
             result.push(leftPoint);
@@ -72,13 +76,33 @@ cc.Class({
         return result;
     },
 
-    getChunk(point, existIdxs, result) {
+    getChunk(point, existIdxs, result, isFirst) {
+        if (isFirst) {
+            if (point.val === 9) {
+                for (let i = 0; i < this.row; i++) {
+                    let idx = point.point[0] + i * this.col;
+                    if (this.arr[idx].box) {
+                        result.push(this.arr[idx]);
+                    }
+                }
+                return result
+            } else if (point.val === 10) { // 左右炸弹 炸整行 不用判断是否是isValid
+                for (let i = 0; i < this.col; i++) {
+                    let idx = i + this.col * point.point[1];
+                    if (this.arr[idx].box) {
+                        result.push(this.arr[idx]);
+                    }
+                }
+                return result
+            }
+        }
+
         let aAroundPoints = [point].concat(this.getAroundPoints(point));
         aAroundPoints.forEach(item => {
             if (existIdxs.indexOf(item.index) < 0) {
                 existIdxs.push(item.index);
                 result.push(item);
-                result.concat(this.getChunk(item, existIdxs, result));
+                result.concat(this.getChunk(item, existIdxs, result, false));
             }
         })
         return result;
@@ -90,43 +114,46 @@ cc.Class({
             let o = _map[item.point[0]];
             if (!o) {
                 o = {
-                    count: 1,
-                    minIdx: item.index
+                    maxIdx: item.index
                 }
             } else {
-                o.count += 1;
-                item.index < o.minIdx && (o.minIdx = item.index);
+                item.index > o.maxIdx && (o.maxIdx = item.index);
             }
             item.box.destroy();
             item.box = null;
             item.val = null;
             _map[item.point[0]] = o;
-        })
+        });
 
         for (let x in _map) {
-            let minIdx = _map[x].minIdx;
-            let _colIdx = [];
-            for (let i = 0; i < this.row; i++) _colIdx.push(+x + i * this.col);
-            let _ids = _colIdx.filter(item => {
-                if (item < minIdx) return '' + item;
-            })
-            let result = _ids.map(item => this.arr[item]);
-            this.movePoints(_map[x].count, result);
+            let maxIdx = _map[x].maxIdx;
+            let result = [];
+            for (let i = 0; i < this.row; i++) {
+                let idx = parseInt(x) + i * this.col;
+                if (this.arr[idx] && idx < maxIdx) result.push(this.arr[idx]);
+            }
+            this.movePoints(result, maxIdx);
         }
         this.scheduleOnce(() => {
             this.checkClickEnable();
-        }, 0.5)
+        }, .3)
     },
 
-    movePoints(len, points) {
+    movePoints(points, maxIdx) {
         for (let i = points.length - 1; i >= 0; i--) {
             let item = points[i];
-            let target = this.arr[item.index + this.col * len];
+            let len = 0;
+            for (let j = item.point[1] + 1; j < this.row; j++) {
+                var index = item.point[0] + j * this.col;
+                if (!this.arr[index].box) len++;
+            }
+            let nextIdx = item.index + this.col * len;
+            let target = this.arr[nextIdx];
             target.val = item.val;
             target.box = item.box;
             if (target.box) {
                 target.box.setTag(target.index);
-                target.box.runAction(cc.moveTo(0.2, target.pos));
+                target.box.runAction(cc.moveTo(.2, target.pos));
             }
             item.val = null;
             item.box = null;
@@ -138,7 +165,7 @@ cc.Class({
         this.arr.forEach(item => {
             if (item.box) {
                 let points = this.getAroundPoints(item);
-                if (points.length > 0) {
+                if (item.val === 9 || item.val === 10 || points.length > 0) {
                     enable = true;
                     return;
                 }
@@ -195,7 +222,15 @@ cc.Class({
         let maxY = obj.maxY;
         let points = obj.points;
         for (let i = 0; i < len; i++) {
-            let val = 0 | cc.random0To1() * this.picArrs.length;
+            let random = cc.random0To1();
+            let val;
+            if (random < this._probability) {
+                val = 8;
+            } else if (random > this._probability && random < this._probability * 2) {
+                val = 9;
+            } else {
+                val = (0 | cc.random0To1() * (this.picArrs.length - 2));
+            }
             let box = this.newBox(val);
             let topBox = this.arr[x];
             box.setPosition(cc.p(topBox.pos.x, topBox.pos.y + this._boxWidth * (i + 1)));
@@ -226,12 +261,12 @@ cc.Class({
             if (!this.arr[idx].box) return;
             let point = this.arr[idx];
             if (!point.isValid || !point.box) return;
-            let targetPoints = this.getChunk(point, [], []);
+            let targetPoints = this.getChunk(point, [], [], true);
             targetPoints.length > 1 && this.clearPoints(targetPoints);
         })
         return box;
     },
-    
+
     gameOver() {
         cc.log("游戏结束");
         this.showTip.getComponent(cc.Sprite).node.active = true;

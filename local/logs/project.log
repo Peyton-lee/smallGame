@@ -1,52 +1,125 @@
-2018-04-09T13:33:27.409Z - normal: Load ~/.CocosCreator/settings.json
-2018-04-09T13:33:27.412Z - normal: checking language setting...
-2018-04-09T13:33:27.412Z - normal: Language: zh
-2018-04-09T13:33:28.323Z - success: protocol editor-framework registered
-2018-04-09T13:33:28.323Z - success: protocol app registered
-2018-04-09T13:33:28.324Z - success: protocol theme registered
-2018-04-09T13:33:28.324Z - success: protocol packages registered
-2018-04-09T13:33:28.324Z - success: protocol unpack registerred
-2018-04-09T13:33:28.324Z - success: protocol disable-commonjs registerred
-2018-04-09T13:33:28.654Z - normal: connected!
-2018-04-09T13:33:28.655Z - normal: Check project /Users/peyton/Desktop/Coding/github/smallGame
-2018-04-09T13:33:28.666Z - normal: Initializing Cocos2d
-2018-04-09T13:33:28.989Z - normal: Initializing Asset Database
-2018-04-09T13:33:29.027Z - success: protocol uuid registerred
-2018-04-09T13:33:29.027Z - success: protocol db registerred
-2018-04-09T13:33:29.027Z - success: protocol thumbnail registerred
-2018-04-09T13:33:29.028Z - normal: Loading editor/builtin packages
-2018-04-09T13:33:29.081Z - success: anysdk loaded
-2018-04-09T13:33:29.202Z - success: assets loaded
-2018-04-09T13:33:29.205Z - success: builder loaded
-2018-04-09T13:33:29.207Z - success: cocos-analytics loaded
-2018-04-09T13:33:29.215Z - success: console loaded
-2018-04-09T13:33:29.224Z - success: hierarchy loaded
-2018-04-09T13:33:29.233Z - success: inspector loaded
-2018-04-09T13:33:29.235Z - success: keystore loaded
-2018-04-09T13:33:29.239Z - success: node-library loaded
-2018-04-09T13:33:29.240Z - success: package-asset loaded
-2018-04-09T13:33:29.242Z - success: preferences loaded
-2018-04-09T13:33:29.246Z - success: project-exporter loaded
-2018-04-09T13:33:29.266Z - success: project-importer loaded
-2018-04-09T13:33:29.270Z - success: project-settings loaded
-2018-04-09T13:33:29.274Z - success: ui-kit loaded
-2018-04-09T13:33:29.279Z - success: ui-grid loaded
-2018-04-09T13:33:29.283Z - success: scene loaded
-2018-04-09T13:33:29.284Z - success: sprite-editor loaded
-2018-04-09T13:33:29.288Z - success: store loaded
-2018-04-09T13:33:29.301Z - success: timeline loaded
-2018-04-09T13:33:29.301Z - normal: Loading builtin packages
-2018-04-09T13:33:29.305Z - success: asset-db-debugger loaded
-2018-04-09T13:33:29.306Z - success: color-picker loaded
-2018-04-09T13:33:29.310Z - success: package-manager loaded
-2018-04-09T13:33:29.393Z - success: sdkbox loaded
-2018-04-09T13:33:29.400Z - success: tester loaded
-2018-04-09T13:33:29.405Z - success: ui-kit-preview-extra loaded
-2018-04-09T13:33:29.408Z - success: ui-kit-preview loaded
-2018-04-09T13:33:29.412Z - success: ui-tree loaded
-2018-04-09T13:33:30.529Z - normal: Initializing project /Users/peyton/Desktop/Coding/github/smallGame
-2018-04-09T13:33:30.532Z - normal: Loading packages
-2018-04-09T13:33:30.538Z - normal: Watching packages
-2018-04-09T13:33:30.554Z - normal: Run Application
-2018-04-09T13:33:31.330Z - success: preview server running at http://localhost:7456
-2018-04-09T13:33:35.526Z - normal: 1.8.1
+2018-04-10T13:14:43.816Z - normal: Load ~/.CocosCreator/settings.json
+2018-04-10T13:14:43.819Z - normal: checking language setting...
+2018-04-10T13:14:43.819Z - normal: Language: zh
+2018-04-10T13:14:44.930Z - success: protocol editor-framework registered
+2018-04-10T13:14:44.930Z - success: protocol app registered
+2018-04-10T13:14:44.930Z - success: protocol theme registered
+2018-04-10T13:14:44.930Z - success: protocol packages registered
+2018-04-10T13:14:44.930Z - success: protocol unpack registerred
+2018-04-10T13:14:44.930Z - success: protocol disable-commonjs registerred
+2018-04-10T13:14:45.418Z - normal: connected!
+2018-04-10T13:14:45.422Z - normal: Check project /Users/peyton/Desktop/Coding/github/smallGame
+2018-04-10T13:14:45.424Z - normal: Initializing Cocos2d
+2018-04-10T13:14:45.821Z - normal: Initializing Asset Database
+2018-04-10T13:14:45.884Z - success: protocol uuid registerred
+2018-04-10T13:14:45.884Z - success: protocol db registerred
+2018-04-10T13:14:45.884Z - success: protocol thumbnail registerred
+2018-04-10T13:14:45.884Z - normal: Loading editor/builtin packages
+2018-04-10T13:14:45.955Z - success: anysdk loaded
+2018-04-10T13:14:46.085Z - success: assets loaded
+2018-04-10T13:14:46.089Z - success: builder loaded
+2018-04-10T13:14:46.092Z - success: cocos-analytics loaded
+2018-04-10T13:14:46.103Z - success: console loaded
+2018-04-10T13:14:46.116Z - success: hierarchy loaded
+2018-04-10T13:14:46.130Z - success: inspector loaded
+2018-04-10T13:14:46.133Z - success: keystore loaded
+2018-04-10T13:14:46.139Z - success: node-library loaded
+2018-04-10T13:14:46.142Z - success: package-asset loaded
+2018-04-10T13:14:46.146Z - success: preferences loaded
+2018-04-10T13:14:46.151Z - success: project-exporter loaded
+2018-04-10T13:14:46.168Z - success: project-importer loaded
+2018-04-10T13:14:46.171Z - success: project-settings loaded
+2018-04-10T13:14:46.175Z - success: ui-kit loaded
+2018-04-10T13:14:46.181Z - success: ui-grid loaded
+2018-04-10T13:14:46.185Z - success: scene loaded
+2018-04-10T13:14:46.187Z - success: sprite-editor loaded
+2018-04-10T13:14:46.192Z - success: store loaded
+2018-04-10T13:14:46.198Z - success: timeline loaded
+2018-04-10T13:14:46.199Z - normal: Loading builtin packages
+2018-04-10T13:14:46.203Z - success: asset-db-debugger loaded
+2018-04-10T13:14:46.205Z - success: color-picker loaded
+2018-04-10T13:14:46.209Z - success: package-manager loaded
+2018-04-10T13:14:46.275Z - success: sdkbox loaded
+2018-04-10T13:14:46.280Z - normal: last time update is in one day
+2018-04-10T13:14:46.280Z - success: tester loaded
+2018-04-10T13:14:46.285Z - success: ui-kit-preview-extra loaded
+2018-04-10T13:14:46.289Z - success: ui-kit-preview loaded
+2018-04-10T13:14:46.292Z - success: ui-tree loaded
+2018-04-10T13:14:47.458Z - normal: Initializing project /Users/peyton/Desktop/Coding/github/smallGame
+2018-04-10T13:14:47.461Z - normal: Loading packages
+2018-04-10T13:14:47.465Z - normal: Watching packages
+2018-04-10T13:14:47.475Z - normal: Run Application
+2018-04-10T13:14:48.141Z - success: preview server running at http://localhost:7456
+2018-04-10T13:14:52.645Z - normal: 1.8.1
+2018-04-10T13:23:02.994Z - failed: [db-task][sync-changes] Failed to import asset /Users/peyton/Desktop/Coding/github/smallGame/assets/Script/XXLGame.js, message: Compile error: SyntaxError: /Users/peyton/Desktop/Coding/github/smallGame/assets/Script/XXLGame.js: Unexpected token, expected , (263:42)
+  261 |             if (!point.isValid || !point.box) return;
+  262 |             let targetPoints = this.getChunk(point, [], [], true);
+> 263 |             cc.log(targetPoints.map(item) cc.log(item.val, item.index))
+      |                                           ^
+  264 |             targetPoints.length > 1 && this.clearPoints(targetPoints);
+  265 |         })
+  266 |         return box;
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3564:12)
+    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-04-10T13:23:19.490Z - failed: [db-task][sync-changes] Failed to import asset /Users/peyton/Desktop/Coding/github/smallGame/assets/Script/XXLGame.js, message: Compile error: SyntaxError: /Users/peyton/Desktop/Coding/github/smallGame/assets/Script/XXLGame.js: Unexpected token, expected , (263:42)
+  261 |             if (!point.isValid || !point.box) return;
+  262 |             let targetPoints = this.getChunk(point, [], [], true);
+> 263 |             cc.log(targetPoints.map(item) => cc.log(item.val, item.index))
+      |                                           ^
+  264 |             targetPoints.length > 1 && this.clearPoints(targetPoints);
+  265 |         })
+  266 |         return box;
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3564:12)
+    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-04-10T13:23:43.700Z - failed: [db-task][sync-changes] Failed to import asset /Users/peyton/Desktop/Coding/github/smallGame/assets/Script/XXLGame.js, message: Compile error: SyntaxError: /Users/peyton/Desktop/Coding/github/smallGame/assets/Script/XXLGame.js: Unexpected token, expected , (263:42)
+  261 |             if (!point.isValid || !point.box) return;
+  262 |             let targetPoints = this.getChunk(point, [], [], true);
+> 263 |             cc.log(targetPoints.map(item) => {
+      |                                           ^
+  264 |                 cc.log(item.val, item.index)
+  265 |             })
+  266 |             targetPoints.length > 1 && this.clearPoints(targetPoints);
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3564:12)
+    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-04-10T13:23:56.330Z - failed: [db-task][sync-changes] Failed to import asset /Users/peyton/Desktop/Coding/github/smallGame/assets/Script/XXLGame.js, message: Compile error: SyntaxError: /Users/peyton/Desktop/Coding/github/smallGame/assets/Script/XXLGame.js: Unexpected token, expected ; (263:35)
+  261 |             if (!point.isValid || !point.box) return;
+  262 |             let targetPoints = this.getChunk(point, [], [], true);
+> 263 |             targetPoints.map(item) => {
+      |                                    ^
+  264 |                 cc.log(item.val, item.index)
+  265 |             })
+  266 |             targetPoints.length > 1 && this.clearPoints(targetPoints);
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.semicolon (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2236:8)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2268:21)
+    at Parser.pp$1.parseBlock (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2247:8)
+    at Parser.pp$3.parseFunctionBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4235:22)
+    at Parser.pp$3.parseArrowExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4190:8)
+    at Parser.pp$3.parseParenAndDistinguishExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3855:17)

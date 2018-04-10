@@ -2,7 +2,7 @@
 cc._RF.push(module, '40905aYvSpOub3AGKKpSVD3', 'XXLGame');
 // Script/XXLGame.js
 
-'use strict';
+"use strict";
 
 var _llkGame = require('./Game2');
 cc.Class({
@@ -13,13 +13,16 @@ cc.Class({
     },
 
     onLoad: function onLoad() {
+
         this.row = 4;
         this.col = 4;
+        this._probability = 0.01; // 炸弹几率
 
         // 存放所有盒子的数据结构
         this.arr = [];
     },
     start: function start() {
+        // 游戏结束的弹窗
         this.showTip.getComponent(cc.Sprite).node.active = false;
         this.showTip.getComponent(cc.Sprite).node.setLocalZOrder(100);
 
@@ -57,6 +60,7 @@ cc.Class({
     getAroundPoints: function getAroundPoints(point) {
         var result = [];
         if (!point.isValid) return result;
+        // 上下炸弹 炸整列 不用判断是否是isValid
         var leftPoint = this.arr[point.index - 1];
         if (leftPoint && leftPoint.box && leftPoint.isValid && point.point[0] !== 0 && leftPoint.val === point.val) {
             result.push(leftPoint);
@@ -75,15 +79,36 @@ cc.Class({
         }
         return result;
     },
-    getChunk: function getChunk(point, existIdxs, result) {
+    getChunk: function getChunk(point, existIdxs, result, isFirst) {
         var _this = this;
+
+        if (isFirst) {
+            if (point.val === 9) {
+                for (var i = 0; i < this.row; i++) {
+                    var idx = point.point[0] + i * this.col;
+                    if (this.arr[idx].box) {
+                        result.push(this.arr[idx]);
+                    }
+                }
+                return result;
+            } else if (point.val === 10) {
+                // 左右炸弹 炸整行 不用判断是否是isValid
+                for (var _i = 0; _i < this.col; _i++) {
+                    var _idx = _i + this.col * point.point[1];
+                    if (this.arr[_idx].box) {
+                        result.push(this.arr[_idx]);
+                    }
+                }
+                return result;
+            }
+        }
 
         var aAroundPoints = [point].concat(this.getAroundPoints(point));
         aAroundPoints.forEach(function (item) {
             if (existIdxs.indexOf(item.index) < 0) {
                 existIdxs.push(item.index);
                 result.push(item);
-                result.concat(_this.getChunk(item, existIdxs, result));
+                result.concat(_this.getChunk(item, existIdxs, result, false));
             }
         });
         return result;
@@ -96,12 +121,10 @@ cc.Class({
             var o = _map[item.point[0]];
             if (!o) {
                 o = {
-                    count: 1,
-                    minIdx: item.index
+                    maxIdx: item.index
                 };
             } else {
-                o.count += 1;
-                item.index < o.minIdx && (o.minIdx = item.index);
+                item.index > o.maxIdx && (o.maxIdx = item.index);
             }
             item.box.destroy();
             item.box = null;
@@ -109,36 +132,34 @@ cc.Class({
             _map[item.point[0]] = o;
         });
 
-        var _loop = function _loop(x) {
-            var minIdx = _map[x].minIdx;
-            var _colIdx = [];
-            for (var i = 0; i < _this2.row; i++) {
-                _colIdx.push(+x + i * _this2.col);
-            }var _ids = _colIdx.filter(function (item) {
-                if (item < minIdx) return '' + item;
-            });
-            var result = _ids.map(function (item) {
-                return _this2.arr[item];
-            });
-            _this2.movePoints(_map[x].count, result);
-        };
-
         for (var x in _map) {
-            _loop(x);
+            var maxIdx = _map[x].maxIdx;
+            var result = [];
+            for (var i = 0; i < this.row; i++) {
+                var idx = parseInt(x) + i * this.col;
+                if (this.arr[idx] && idx < maxIdx) result.push(this.arr[idx]);
+            }
+            this.movePoints(result, maxIdx);
         }
         this.scheduleOnce(function () {
             _this2.checkClickEnable();
-        }, 0.5);
+        }, .3);
     },
-    movePoints: function movePoints(len, points) {
+    movePoints: function movePoints(points, maxIdx) {
         for (var i = points.length - 1; i >= 0; i--) {
             var item = points[i];
-            var target = this.arr[item.index + this.col * len];
+            var len = 0;
+            for (var j = item.point[1] + 1; j < this.row; j++) {
+                var index = item.point[0] + j * this.col;
+                if (!this.arr[index].box) len++;
+            }
+            var nextIdx = item.index + this.col * len;
+            var target = this.arr[nextIdx];
             target.val = item.val;
             target.box = item.box;
             if (target.box) {
                 target.box.setTag(target.index);
-                target.box.runAction(cc.moveTo(0.2, target.pos));
+                target.box.runAction(cc.moveTo(.2, target.pos));
             }
             item.val = null;
             item.box = null;
@@ -151,7 +172,7 @@ cc.Class({
         this.arr.forEach(function (item) {
             if (item.box) {
                 var points = _this3.getAroundPoints(item);
-                if (points.length > 0) {
+                if (item.val === 9 || item.val === 10 || points.length > 0) {
                     enable = true;
                     return;
                 }
@@ -209,7 +230,15 @@ cc.Class({
         var maxY = obj.maxY;
         var points = obj.points;
         for (var i = 0; i < len; i++) {
-            var val = 0 | cc.random0To1() * this.picArrs.length;
+            var random = cc.random0To1();
+            var val = void 0;
+            if (random < this._probability) {
+                val = 8;
+            } else if (random > this._probability && random < this._probability * 2) {
+                val = 9;
+            } else {
+                val = 0 | cc.random0To1() * (this.picArrs.length - 2);
+            }
             var box = this.newBox(val);
             var topBox = this.arr[x];
             box.setPosition(cc.p(topBox.pos.x, topBox.pos.y + this._boxWidth * (i + 1)));
@@ -241,7 +270,7 @@ cc.Class({
             if (!_this5.arr[idx].box) return;
             var point = _this5.arr[idx];
             if (!point.isValid || !point.box) return;
-            var targetPoints = _this5.getChunk(point, [], []);
+            var targetPoints = _this5.getChunk(point, [], [], true);
             targetPoints.length > 1 && _this5.clearPoints(targetPoints);
         });
         return box;

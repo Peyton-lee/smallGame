@@ -55,7 +55,7 @@
     "relativePath": "Scene/Game.fire"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1522676905642,
+    "asset": 1523287358917,
     "meta": 1521551636000,
     "relativePath": "Texture"
   },
@@ -200,8 +200,8 @@
     "relativePath": "Texture/back.png"
   },
   "b2c2a796-2a11-4397-b781-2570b94bdf36": {
-    "asset": 1523284768991,
-    "meta": 1523284768996,
+    "asset": 1523286427371,
+    "meta": 1523286427386,
     "relativePath": "Scene/Change.fire"
   },
   "71561142-4c83-4933-afca-cb7a17f67053": {
@@ -420,8 +420,8 @@
     "relativePath": "Script/huaGame.js"
   },
   "3d2d4b28-53c3-4da0-aa76-181ae4a1b0cd": {
-    "asset": 1523284647603,
-    "meta": 1523284647608,
+    "asset": 1523376673313,
+    "meta": 1523376673319,
     "relativePath": "Scene/XXLGame.fire"
   },
   "78da2f4e-3555-4662-90d7-053af0a89b41": {
@@ -429,14 +429,24 @@
     "meta": 1523174636323,
     "relativePath": "Script/Game2.js"
   },
-  "40905698-bd2a-4eb9-bdc0-18a2a94950f7": {
-    "asset": 1523284474383,
-    "meta": 1523284477088,
-    "relativePath": "Script/XXLGame.js"
-  },
   "b2cdc193-64ae-46e7-8115-22de5ba090ec": {
     "asset": 1523285542487,
     "meta": 1523285557326,
     "relativePath": "Script/btnClick.js"
+  },
+  "51abd171-747f-4429-be9e-1ed5d94d28d5": {
+    "asset": 1523287358911,
+    "meta": 1523287358953,
+    "relativePath": "Texture/zuoyou.png"
+  },
+  "99852cef-8205-4ee9-b9ec-3f2bc3f2ef8d": {
+    "asset": 1523287358911,
+    "meta": 1523287358955,
+    "relativePath": "Texture/shangxia.png"
+  },
+  "40905698-bd2a-4eb9-bdc0-18a2a94950f7": {
+    "asset": 1523376634216,
+    "meta": 1523376636076,
+    "relativePath": "Script/XXLGame.js"
   }
 }
