@@ -14,9 +14,9 @@ cc.Class({
 
     onLoad: function onLoad() {
 
-        this.row = 4;
-        this.col = 4;
-        this._probability = 0.01; // 炸弹几率
+        this.row = 12;
+        this.col = 12;
+        this._probability = 0.008; // 炸弹几率
 
         // 存放所有盒子的数据结构
         this.arr = [];
@@ -29,7 +29,7 @@ cc.Class({
         // 屏幕
         var winSize = cc.director.getWinSize();
         // 获取随机数组
-        this._arrs = this.getSortArrs(this.picArrs.slice(0, 4), this.row, this.col);
+        this._arrs = this.getSortArrs(this.picArrs.slice(0, 6), this.row, this.col);
         if (this._arrs.length === 0) return;
 
         // 计算每个盒子宽度

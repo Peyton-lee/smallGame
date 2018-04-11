@@ -420,8 +420,8 @@
     "relativePath": "Script/huaGame.js"
   },
   "3d2d4b28-53c3-4da0-aa76-181ae4a1b0cd": {
-    "asset": 1523376673313,
-    "meta": 1523376673319,
+    "asset": 1523376924791,
+    "meta": 1523376924808,
     "relativePath": "Scene/XXLGame.fire"
   },
   "78da2f4e-3555-4662-90d7-053af0a89b41": {
@@ -445,8 +445,8 @@
     "relativePath": "Texture/shangxia.png"
   },
   "40905698-bd2a-4eb9-bdc0-18a2a94950f7": {
-    "asset": 1523376634216,
-    "meta": 1523376636076,
+    "asset": 1523453483610,
+    "meta": 1523453486373,
     "relativePath": "Script/XXLGame.js"
   }
 }
